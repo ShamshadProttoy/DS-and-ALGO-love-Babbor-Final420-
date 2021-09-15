@@ -1,7 +1,7 @@
 def ReverseArray(A,start,end):
     while start<end:
         A[start],A[end]=A[end],A[start]
-    
+
         start=start+1
         end=end-1
 
